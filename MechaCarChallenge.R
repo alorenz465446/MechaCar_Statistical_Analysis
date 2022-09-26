@@ -28,7 +28,15 @@ summary(Mecha_lm)$r.squared
 Suspension_Coil <- read.csv(file='./Data/Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
 
 
-# summarize total data with summarize () function
+# summarize total lots with summarize () function
 total_summary <- Suspension_Coil %>%
   summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), Std_Dev=sd(PSI))
 total_summary
+
+# summarize individual lots with groupby() and summarize()
+
+lot_summary <- Suspension_Coil %>% 
+  group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), Std_Dev=sd(PSI))
+lot_summary
+
+### Deliverable 3 #####################
