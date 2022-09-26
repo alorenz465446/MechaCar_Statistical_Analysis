@@ -1,8 +1,11 @@
 library(dplyr)
 
 
-### Deliverable 1 ###########
+### Deliverable 1 #######################
+### get linear regression for MechaCar_mpg data
+
 # import csv
+
 MechaCar_mpg <- read.csv(file='./Data/MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
 
 # perform linerar regression with lm() function
@@ -16,8 +19,12 @@ summary(Mecha_lm)
 summary(Mecha_lm)$r.squared
 
 
-### Deliverable 2 ########
+### Deliverable 2 ##########################
+# get PSI mean,median,variance,std_dev
+
+
 # import csv2
+
 Suspension_Coil <- read.csv(file='./Data/Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
 
 
