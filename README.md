@@ -39,13 +39,13 @@ A: The slope is not considered to be zero because the intercept coefficent is si
 
 Q: Does the linear model predict miles per gallon? why or why not?
 
-A: The Multiple R-squared was 0.71 says that the model does a sufficient job at predicting mpg. This is based off of the general value range betwen 0 and 1 in determination of future data fitting the model. 
+A: The Multiple R-squared was 0.71 says that the model does a sufficient job at predicting mpg. This is based off of the general value range betwen 0 and 1 in determination of future data fitting the model...
 
 
 ## Summary Statistics on Suspension Coils
 
 
-![Coil PSI variance for all lots](./Images/)
+![Coil PSI variance for all lots](./Images/total_summary_psi.PNG)
 
 ![Coil PSI Variance for Lots](./Images/lot_summary.PNG)
 
