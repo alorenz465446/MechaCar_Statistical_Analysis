@@ -23,7 +23,7 @@ Run t-tests to determine if the manufacturing lots are statistically different f
 
 
 
-![Mecha Car Linear Summary](./Images/total_summary.PNG)
+![Mecha Car Linear Summary](./Images/MechaCar_variables.PNG)
 
 Q: Which variable coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
@@ -45,7 +45,7 @@ A: The Multiple R-squared was 0.71 says that the model does a sufficient job at 
 ## Summary Statistics on Suspension Coils
 
 
-![Coil PSI variance for all lots](./Images/PSI_summary.PNG)
+![Coil PSI variance for all lots](./Images/total_summary.PNG)
 
 ![Coil PSI Variance for Lots](./Images/lot_summary.PNG)
 
