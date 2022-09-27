@@ -45,7 +45,7 @@ A: The Multiple R-squared was 0.71 says that the model does a sufficient job at 
 ## Summary Statistics on Suspension Coils
 
 
-![Coil PSI variance for all lots](./Images/total_summary.PNG)
+![Coil PSI variance for all lots](./Images/)
 
 ![Coil PSI Variance for Lots](./Images/lot_summary.PNG)
 
