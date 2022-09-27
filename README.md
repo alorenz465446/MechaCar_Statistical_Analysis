@@ -53,26 +53,34 @@ Q: Does the current manufacturing data meet this design specification for all ma
 
 A: The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The variance is 62.29, meaning all manufacturing lots in total meet the design specification. Lot 1 & 2 are within specifications, but Lot 3 has a variance that goes over the specification limits (100 PSI). 
 
-Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+
 
 ## T-Tests on Suspension Coils
 
+![T.test all lots](./Images/t_test_all_lots.PNG)
+
 determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+![T.test Lot 1](./Images/t_test_lot_1.PNG)
+
+![T.test Lot 2](./Images/t_test_lot_2.PNG)
+
+![T.test Lot 3](./Images/t_test_lot_3.PNG)
 
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
+* Another metric to be measured, not in the original data, is the safety rating. Usually, bigger and heavier cars are rated safer. Larger and heavier cars also tend to have a lower mpg. 
 
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+* The null hypothesis would be there is no statistical difference and that safety rating does not influence the mpg. 
 
-## Summary 
+* I would use a t-test for my findings. I would use this test to find the linearity between safety ratings and mpg. 
 
-## Results
+* I would need the original MechaCar_mpg file and new data that included the safety ratings.
+
 
 ### Resources
 
+* RStudiio
+* MechaCar_mpg.csv & Suspension_Coil.csv
+* VS Code
