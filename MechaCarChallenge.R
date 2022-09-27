@@ -40,3 +40,18 @@ lot_summary <- Suspension_Coil %>%
 lot_summary
 
 ### Deliverable 3 #####################
+### significance: p < .05 ? Yes, Reject Ho / No, Fail to Reject Null (Ho)
+# Ho: mu = 1500
+# Ha: mu <> 1500
+
+t.test(Suspension_Coil$PSI,mu=1500)
+
+# analysis: p-value (0.06) greater than 0.05, fail to reject Ho
+
+# t test by lots
+
+t.test(subset(Suspension_Coil, Manufacturing_Lot=="Lot1")$PSI, mu=1500)
+
+t.test(subset(Suspension_Coil, Manufacturing_Lot=="Lot2")$PSI, mu=1500)
+
+t.test(subset(Suspension_Coil, Manufacturing_Lot=="Lot3")$PSI, mu=1500)
