@@ -8,11 +8,22 @@ review the production data for insights that may help the manufacturing team.
 
 In this challenge, you’ll help Jeremy and the data analytics team do the following:
 
-## Linear Regression to Predict MPG
-
 Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
 
-![Mecha Car Linear Summary](./Images/MechaCar_variables.PNG)
+<br>
+Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.
+
+<br>
+
+Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+
+
+
+## Linear Regression to Predict MPG
+
+
+
+![Mecha Car Linear Summary](./Images/total_summary.PNG)
 
 Q: Which variable coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
@@ -33,8 +44,6 @@ A: The Multiple R-squared was 0.71 says that the model does a sufficient job at 
 
 ## Summary Statistics on Suspension Coils
 
-Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.
-Run t-tests to determine if the manufacturing lots are statistically different from the mean population
 
 ![Coil PSI variance for all lots](./Images/PSI_summary.PNG)
 
