@@ -2,7 +2,7 @@
 
 ## Overview
 
-A car company has a new prototype, the MechaCar. It is suffering from production troubles and blocking the manufacturing team’s progress. Reviewing and analyzing the production data should givr insights that may help the manufacturing team. I will achieve these statistics by performing a multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes, collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots and run t-tests to determine if the manufacturing lots are statistically different from the mean population.
+A car company has a new prototype, the MechaCar. It is suffering from production troubles and blocking the manufacturing team’s progress. Reviewing and analyzing the production data should give insights that may help the manufacturing team. I will conduct a multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes. Also, collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots and run t-tests to determine if the manufacturing lots are statistically different from the mean population.
 
 
 ## Linear Regression to Predict MPG
@@ -10,7 +10,7 @@ A car company has a new prototype, the MechaCar. It is suffering from production
 
 ![Mecha Car Linear Summary](./Images/MechaCar_variables.PNG)
 
-Each Pr value in the table above is seen as the probabilty each coefficient gives a random amount of varience to the linnear model. The Intercept coefficent is considered to be the slope value.
+Each Pr value in the table above is the probabilty each coefficient gives a random amount of varience to the linnear model. The Intercept coefficent is considered to be the slope value.
 
 Q1: Which variable coefficients provided a non-random amount of variance to the mpg values in the dataset? 
 
